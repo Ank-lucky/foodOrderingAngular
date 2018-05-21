@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Food Ordering Site</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <p id="head1">Smart</p>
+      <p id="head2">Home</p>
+      <p id="head3">Login</p>
+    </div>
+    <br>
+    <div class="container-wrapper">
+      <div class="card1">
+        <div id="cardHeading">All</div>
+        <div id="items" (click)="selectMenu('Oriental')">Oriental<hr></div>
+        <div id="items" (click)="selectMenu('Chinese Combos')">Chinese combos<hr></div>
+        <div id="items" (click)="selectMenu('Chinese Starter')">Chinese Starter<hr></div>
+        <div id="items" (click)="selectMenu('Salads')">Salads</div>
+      </div>
+      <div class="card2">
+          <div id="cardHeading">Oriental</div>
+          <!-- <div *ngFor="let items of menuItems"></div>  
+          <p *ngIf= "(items.category== 'Oriental')">items.name</p> -->
+          <p>Chicken Starter</p>
+          <p>Paneer starter</p>
+          <p>Veg Starter</p>
+          <div id="cardHeading">Chinese Combos</div>
+          <p>Chicken Chinese Combo</p>
+          <p>Egg Chinese combos</p>
+          <p>Lebanese Chicken Pockets</p>
+          <p>Lebanese falafai Pockets</p>
+          <p>Veg Chinese Combo</p>
+          <div id="cardHeading">Chinese Starter</div>
+          <p>Indonsian NAsi Goreng Tofu</p>
+          <p>Mexican Veg Nachos</p>
+          <p>Mexican Non Veg Nachos</p>
+          <p>Indonesian Nasi Goreng Chicken</p>
+          <div id="cardHeading">Salads</div>
+          <p>Veg Salad</p>
+          <p>Non Veg Salad</p>   
+      </div>
+      <div class="card3">
+          <div id="cardHeading">Your Cart</div>
+      </div>
+    </div>
+
+  </body>
+</html>
